@@ -1,17 +1,19 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Slimy;
+  src: url(../public//assets/fonts/Slimy\ font.otf);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +26,18 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-image: url("../public/images/bg/monster-bg.jpg");
+  background-size: cover;
+  background: cover;
+  color: rgb(15, 224, 40);
+  text-shadow: 20% black;
+  border: 1vw black solid;
+  height: 100vh;
+  width: 100vw;
+  font-family: Slimy;
+  word-spacing: 4px;
+  -webkit-text-stroke-color: #282c34;
+  -webkit-text-stroke-width: 1px;
 }
